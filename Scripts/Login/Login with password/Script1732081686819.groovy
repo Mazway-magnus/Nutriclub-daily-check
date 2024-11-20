@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.nutriclub.co.id/')
+
+WebUI.click(findTestObject('Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/button_Aktifkan Semua Cookie'))
+
+WebUI.click(findTestObject('Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/a_Masuk'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/input_No Handphone_username'), 
+    '081310096543')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/input_Kata Sandi_password'), 
+    'p4y+y39Ir5PEPmX20UxFKw==')
+
+WebUI.click(findTestObject('Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/button_Masuk'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Membership Dashboard/p_Login Berhasil'), 0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Membership Dashboard/p_Login Berhasil'), 'Login Berhasil')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Membership Dashboard/p_Login Berhasil'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_Membership Dashboard/span_'))
+
+WebUI.closeBrowser()
+
