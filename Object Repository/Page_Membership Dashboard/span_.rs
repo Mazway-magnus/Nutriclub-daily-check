@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_</name>
+   <tag></tag>
+   <elementGuidId>d2359ce1-0984-49f2-b6a6-e083769d9770</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.modal-dialog.modal-dialog-centered > div.modal-content > div.modal-header > button.close > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal-thank-you-login']/div/div/div/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ac2de570-c94b-4058-91ed-f3ae0baec4e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>39230145-562d-4c5f-8915-3b9a3025b6dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>×</value>
+      <webElementGuid>8e1e646e-9896-4db4-8548-edaffb7eb211</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-thank-you-login&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close&quot;]/span[1]</value>
+      <webElementGuid>07a41041-da8a-409c-86bf-4c75448f8fdb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-thank-you-login']/div/div/div/button/span</value>
+      <webElementGuid>2d9fceea-dba3-487d-b81c-2ce83ae8c359</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Selengkapnya'])[2]/following::span[1]</value>
+      <webElementGuid>86557cc2-7e8f-4b6c-b1af-78ecaf338a92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lengkapi Profil'])[1]/preceding::span[2]</value>
+      <webElementGuid>dee43f88-a4b3-402c-9231-b76e2cad26f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ambil Hadiah'])[1]/preceding::span[3]</value>
+      <webElementGuid>34b7ecc0-9c25-44ae-a3ec-a6bf86ac7644</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div/div/button/span</value>
+      <webElementGuid>a0bf472f-f928-4272-b492-e9f7b65d312e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '×' or . = '×')]</value>
+      <webElementGuid>a9daff71-f348-4745-a55e-c7db8c806509</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
