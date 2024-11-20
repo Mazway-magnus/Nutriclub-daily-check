@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Open Browser'
+'Open browser'
 WebUI.openBrowser('')
 
 'Full screen mode'
 WebUI.maximizeWindow()
 
-'Navigate to url nutriclub production'
+'Navigate to url nurticlub production'
 WebUI.navigateToUrl(GlobalVariable.prodEnv)
 
 'Accept cookie button'
@@ -32,19 +32,23 @@ WebUI.click(findTestObject('Object Repository/Page_Nutriclub Dukung si Kecil jad
 'Click button masuk'
 WebUI.click(findTestObject('Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/a_Masuk'))
 
+'Click "Login Tanpa Password"'
+WebUI.click(findTestObject('Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/a_Masuk Tanpa Kata Sandi'))
+
 'Input phone number'
-WebUI.setText(findTestObject('Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/input_No Handphone_username'), 
+WebUI.setText(findTestObject('Object Repository/Page_Login via Kode OTP ke Membership Nutriclub/input_No Handphone_username'), 
     GlobalVariable.phoneNumber)
 
-'Input password'
-WebUI.setText(findTestObject('Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/input_Kata Sandi_password'), 
-    GlobalVariable.password)
+'Click send OTP'
+WebUI.click(findTestObject('Object Repository/Page_Login via Kode OTP ke Membership Nutriclub/button_Kirim OTP'))
 
-'Click login button'
-WebUI.click(findTestObject('Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/button_Masuk'))
+WebUI.waitForElementClickable(findTestObject('Page_Membership Nutriclub Menang di Setiap Langkah/button_Verifikasi'), 0)
+
+'Click button verifikasi'
+WebUI.click(findTestObject('Object Repository/Page_Membership Nutriclub Menang di Setiap Langkah/button_Verifikasi'))
 
 'Verify login successfully'
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Membership Dashboard/p_Login Berhasil'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Membership Dashboard/p_Login Berhasil'), 30)
 
 'Verify text "Login Berhasil"'
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Membership Dashboard/p_Login Berhasil'), 'Login Berhasil')

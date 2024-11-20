@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>c9c21b96-cc81-458a-bb27-331058fc4527</webElementGuid>
+      <webElementGuid>b392eb98-6df8-4a17-b3bb-44b19736e83e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>modal-title text-center</value>
-      <webElementGuid>7638cfc6-8259-469f-89ae-ec4034ceccd9</webElementGuid>
+      <webElementGuid>5798097d-80f4-42b4-8fa1-feb093538faf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <value>
               Login Berhasil
             </value>
-      <webElementGuid>40e2a9c7-e75f-46c2-ba51-cacd253f5c37</webElementGuid>
+      <webElementGuid>3a335685-bbb6-4122-bae4-adbedf180801</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;modal-thank-you-login&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/p[@class=&quot;modal-title text-center&quot;]</value>
-      <webElementGuid>4473eedc-be5b-4c14-ba83-e14ea3323d26</webElementGuid>
+      <webElementGuid>13dedf46-ab72-483c-ac6c-4385d0c1f982</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='modal-thank-you-login']/div/div/div[2]/p</value>
-      <webElementGuid>e101d776-caa8-4f04-987b-25319c85b7a5</webElementGuid>
+      <webElementGuid>1943935a-264c-4491-bf3b-1389b019b860</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Selengkapnya'])[2]/following::p[1]</value>
-      <webElementGuid>4223f354-14eb-4b0e-b9f7-a0a487856c63</webElementGuid>
+      <webElementGuid>8ff04bdf-d5a7-4da7-9b10-8a0ddbbe65cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lengkapi Profil'])[1]/preceding::p[2]</value>
-      <webElementGuid>a972f840-9b0b-457b-869e-9914502c328c</webElementGuid>
+      <webElementGuid>bbfef876-39da-4c9a-919a-276989a5dcf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ambil Hadiah'])[1]/preceding::p[3]</value>
-      <webElementGuid>374c37fc-edc9-4b23-9c46-dcfc2bd6c720</webElementGuid>
+      <webElementGuid>0f8dce7a-eb00-4621-b0f2-cce5ab5d9cfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Login Berhasil']/parent::*</value>
-      <webElementGuid>094a1a1f-f0e0-4b57-88aa-b07932876f91</webElementGuid>
+      <webElementGuid>88928cff-221f-43ef-8cf8-b32d83e23c6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//main/div/div/div/div[2]/p</value>
-      <webElementGuid>3d7ec860-96ef-4504-a3b8-d4d048cf3bac</webElementGuid>
+      <webElementGuid>2c22ccdf-0897-440f-a7f8-908a61ab8c5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
             ' or . = '
               Login Berhasil
             ')]</value>
-      <webElementGuid>7099d9ce-527d-4086-bb09-060874f4e4d4</webElementGuid>
+      <webElementGuid>e5b49788-508e-4269-8a20-2997f94db678</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4570f577-9a5b-47b8-884d-cc0cdd5af422</webElementGuid>
+      <webElementGuid>d98c1526-c4e2-4bb4-a654-efe969ca4181</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>footer_tc_privacy_button</value>
-      <webElementGuid>d24f8c6a-85e1-4a49-916f-707137219759</webElementGuid>
+      <webElementGuid>d750cdf0-ebea-483f-843a-95309d937cff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>tc-reset-css tc-privacy-button</value>
-      <webElementGuid>aadf05ca-3493-48ca-98ad-ba16a71faa9f</webElementGuid>
+      <webElementGuid>3522d938-b583-40ce-88aa-67d4effd1f33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>eb986753-5fcf-40be-a723-b4b5a18e99bb</webElementGuid>
+      <webElementGuid>86e56bb5-1e78-48e0-b24f-a882dbeae36c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Aktifkan Semua Cookie</value>
-      <webElementGuid>a14ee3ba-1981-413a-bc0b-9189362b962d</webElementGuid>
+      <webElementGuid>8e7daa90-7be6-4f85-9f7a-975b46632a03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Aktifkan Semua Cookie</value>
-      <webElementGuid>6ebb72ac-31f6-4d32-b605-9e2db9f57a63</webElementGuid>
+      <webElementGuid>1e937b08-816d-4a53-ac05-c8a06039ef1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;footer_tc_privacy_button&quot;)</value>
-      <webElementGuid>4707c910-f4fc-43d5-8e3d-ca2d69db2489</webElementGuid>
+      <webElementGuid>bfa0c5bb-d408-49d5-ac1d-5f79d3c95282</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='footer_tc_privacy_button']</value>
-      <webElementGuid>64ee48f2-3239-4c99-81d1-bac07d1f0d69</webElementGuid>
+      <webElementGuid>4907fb63-1897-4343-9319-9d7646bcf8f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='footer_tc_privacy_container_button']/button[2]</value>
-      <webElementGuid>c766056e-11e6-4949-bcce-e5be65581f43</webElementGuid>
+      <webElementGuid>daf5bf11-1af7-44a6-8e25-c7ea6b4332fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengaturan Cookie'])[1]/following::button[1]</value>
-      <webElementGuid>c55c5372-5e46-417f-861e-5d92e1715303</webElementGuid>
+      <webElementGuid>df656438-9379-4c7b-bb23-7401e39a5723</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='kontak kami'])[2]/following::button[2]</value>
-      <webElementGuid>cc6dbdde-df7a-4dfb-96ef-36f90ce2160f</webElementGuid>
+      <webElementGuid>303e7002-be85-4c1b-99bf-156de888488e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Aktifkan Semua Cookie']/parent::*</value>
-      <webElementGuid>736e7c6b-970f-416e-9162-6baa6cf13428</webElementGuid>
+      <webElementGuid>4dd6fd25-a879-4e94-a29c-c9496a697d92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/div/div[2]/button[2]</value>
-      <webElementGuid>261f1f23-186c-4b54-be44-21208b54fe89</webElementGuid>
+      <webElementGuid>9bde5140-e361-43bc-b953-3a20b1549ae6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +127,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'footer_tc_privacy_button' and @type = 'button' and @title = 'Aktifkan Semua Cookie' and (text() = 'Aktifkan Semua Cookie' or . = 'Aktifkan Semua Cookie')]</value>
-      <webElementGuid>df039798-b63e-4dec-8942-f38bd6519271</webElementGuid>
+      <webElementGuid>e1e1c10c-a643-40a1-b5b0-73de1421168d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

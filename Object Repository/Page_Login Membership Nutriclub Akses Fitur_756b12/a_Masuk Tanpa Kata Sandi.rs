@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Masuk</name>
+   <name>a_Masuk Tanpa Kata Sandi</name>
    <tag></tag>
-   <elementGuidId>972bb531-ae28-4ab3-9024-5c939d9cc965</elementGuidId>
+   <elementGuidId>ef94b2d0-dce0-48fb-b01d-609fbdbdf3af</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.navbar-brand.cta-login-header.header__brand</value>
+         <value>a.btn.btn-block</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='navbarNav']/div[2]/a</value>
+         <value>//div[@id='step-4']/div/div/div[2]/div[3]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,23 +23,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b1a7df0c-d173-4b34-b2e4-32dab2ffc311</webElementGuid>
+      <webElementGuid>36f000fd-e983-461c-8805-c95773af59e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/membership/login</value>
-      <webElementGuid>40f618a5-2a0d-4943-aa76-7941ec4d83a8</webElementGuid>
+      <value>/membership/login-otp</value>
+      <webElementGuid>bfdec2bb-3ab9-4064-89c9-d70c41f4e3c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>navbar-brand cta-login-header header__brand</value>
-      <webElementGuid>e7428aa2-db1f-451f-994a-514523dcb487</webElementGuid>
+      <value>btn btn-block</value>
+      <webElementGuid>8ac9016f-66e9-4560-a80c-652438768178</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,100 +47,92 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                        Masuk
-                    </value>
-      <webElementGuid>2bdac262-305c-4409-b498-9fe5d03c5ec4</webElementGuid>
+                                                Masuk Tanpa Kata Sandi
+                                            </value>
+      <webElementGuid>6d400014-7c6d-4e6a-897a-8196ada0c0ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbarNav&quot;)/div[@class=&quot;col d-flex align-items-center justify-content-end&quot;]/a[@class=&quot;navbar-brand cta-login-header header__brand&quot;]</value>
-      <webElementGuid>fbf0a0c1-e63d-4d50-a71b-c3dfbf203ae8</webElementGuid>
+      <value>id(&quot;step-4&quot;)/div[@class=&quot;row login__wrapper&quot;]/div[@class=&quot;col-10 offset-1 col-lg-10 offset-lg-2&quot;]/div[@class=&quot;content__card rounded&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8 offset-md-2&quot;]/a[@class=&quot;btn btn-block&quot;]</value>
+      <webElementGuid>57c33464-b82c-4cef-afad-30fe5c8cbcb6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbarNav']/div[2]/a</value>
-      <webElementGuid>fa5c0602-cfc4-475f-abf7-94725438c86f</webElementGuid>
+      <value>//div[@id='step-4']/div/div/div[2]/div[3]/div/a</value>
+      <webElementGuid>f4383cc1-0748-452a-8caa-03ab97af6f20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Masuk')]</value>
-      <webElementGuid>85a05b4c-83d4-4ab6-8104-a4596eda3352</webElementGuid>
+      <value>//a[contains(text(),'Masuk Tanpa Kata Sandi')]</value>
+      <webElementGuid>c1217bcd-b1a6-45e5-b469-c181e96792e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Struk'])[1]/following::a[1]</value>
-      <webElementGuid>300e8b53-ec70-45c2-906c-abeb9f77e549</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[2]/following::a[1]</value>
+      <webElementGuid>394fdf5e-caf8-4ed0-9dd1-ed6a453b86b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nutriclub'])[1]/following::a[2]</value>
-      <webElementGuid>205705de-c30c-4a19-906c-e7ce975ac18f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lupa Kata Sandi'])[1]/following::a[1]</value>
+      <webElementGuid>95fc7d7a-e537-4a3b-b3dc-4099662df2ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[1]/preceding::a[1]</value>
-      <webElementGuid>3dad8a14-62f2-425d-829e-5491f87c9cdb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar di sini'])[1]/preceding::a[1]</value>
+      <webElementGuid>9939e554-2820-4388-b2c0-45a842d4f12b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::a[5]</value>
-      <webElementGuid>0c56b82e-ed1f-4c85-b540-be5d4a0bb7a4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Masuk']/parent::*</value>
-      <webElementGuid>71532584-09fe-41d4-b9cb-b0ea8a68b8d1</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Masuk Tanpa Kata Sandi']/parent::*</value>
+      <webElementGuid>1cd224ce-4713-4411-9431-bac779a09686</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/membership/login')]</value>
-      <webElementGuid>c19b545d-04af-48bc-aacb-0e0542e4708e</webElementGuid>
+      <value>//a[contains(@href, '/membership/login-otp')]</value>
+      <webElementGuid>debaf13c-2986-4bb5-b94a-eec0352437a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/a</value>
-      <webElementGuid>fe13ec9b-cca2-4e98-bdc3-3304900caf9e</webElementGuid>
+      <value>//div[3]/div/a</value>
+      <webElementGuid>2e764cb6-0200-4f78-b5b3-e3318271746e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/membership/login' and (text() = '
-                        Masuk
-                    ' or . = '
-                        Masuk
-                    ')]</value>
-      <webElementGuid>7c3d599b-96ea-4e00-a9de-be15e3cdeb95</webElementGuid>
+      <value>//a[@href = '/membership/login-otp' and (text() = '
+                                                Masuk Tanpa Kata Sandi
+                                            ' or . = '
+                                                Masuk Tanpa Kata Sandi
+                                            ')]</value>
+      <webElementGuid>eab7cbc1-a3c9-43e0-b3b6-d0010ab56f14</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login with password</name>
+   <name>Login without input phone number</name>
    <tag>login</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>3576bc41-567b-461b-bc56-00cdc3cb2439</testCaseGuid>
+   <testCaseGuid>450bd99d-7d06-447b-a476-e780d28d5d7e</testCaseGuid>
 </TestCaseEntity>

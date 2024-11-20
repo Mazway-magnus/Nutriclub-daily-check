@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>ac2de570-c94b-4058-91ed-f3ae0baec4e1</webElementGuid>
+      <webElementGuid>425f9d82-a8c6-4758-82f9-2a9ad9880e8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>39230145-562d-4c5f-8915-3b9a3025b6dd</webElementGuid>
+      <webElementGuid>c99aeb66-6330-4102-8439-75bf3fcd02dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>×</value>
-      <webElementGuid>8e1e646e-9896-4db4-8548-edaffb7eb211</webElementGuid>
+      <webElementGuid>de4158e8-7dc6-4ffa-806f-722b86290a36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;modal-thank-you-login&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close&quot;]/span[1]</value>
-      <webElementGuid>07a41041-da8a-409c-86bf-4c75448f8fdb</webElementGuid>
+      <webElementGuid>4479ef50-c56c-4264-95c8-8d5b288049ce</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='modal-thank-you-login']/div/div/div/button/span</value>
-      <webElementGuid>2d9fceea-dba3-487d-b81c-2ce83ae8c359</webElementGuid>
+      <webElementGuid>3dd4f037-8424-4c1b-8361-7c80778cc16a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Selengkapnya'])[2]/following::span[1]</value>
-      <webElementGuid>86557cc2-7e8f-4b6c-b1af-78ecaf338a92</webElementGuid>
+      <webElementGuid>c3681296-8353-49a5-a074-ef2faa87f3cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lengkapi Profil'])[1]/preceding::span[2]</value>
-      <webElementGuid>dee43f88-a4b3-402c-9231-b76e2cad26f0</webElementGuid>
+      <webElementGuid>52135ab5-87a6-40f7-ad21-0e473ecd9032</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ambil Hadiah'])[1]/preceding::span[3]</value>
-      <webElementGuid>34b7ecc0-9c25-44ae-a3ec-a6bf86ac7644</webElementGuid>
+      <webElementGuid>d181a9be-2bf3-42a4-8296-6432d7b0715d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//main/div/div/div/div/button/span</value>
-      <webElementGuid>a0bf472f-f928-4272-b492-e9f7b65d312e</webElementGuid>
+      <webElementGuid>69466062-5f67-4f0e-a8d1-2cdb4b183891</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '×' or . = '×')]</value>
-      <webElementGuid>a9daff71-f348-4745-a55e-c7db8c806509</webElementGuid>
+      <webElementGuid>0389493e-5fd1-42d0-b8e0-3c0ff2ed97ec</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

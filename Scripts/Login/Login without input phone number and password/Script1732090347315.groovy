@@ -17,40 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Open Browser'
+'Open browser'
 WebUI.openBrowser('')
 
 'Full screen mode'
 WebUI.maximizeWindow()
 
 'Navigate to url nutriclub production'
-WebUI.navigateToUrl(GlobalVariable.prodEnv)
+WebUI.navigateToUrl('https://www.nutriclub.co.id/')
 
-'Accept cookie button'
+'Accept cookie'
 WebUI.click(findTestObject('Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/button_Aktifkan Semua Cookie'))
 
 'Click button masuk'
 WebUI.click(findTestObject('Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/a_Masuk'))
 
-'Input phone number'
-WebUI.setText(findTestObject('Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/input_No Handphone_username'), 
-    GlobalVariable.phoneNumber)
-
-'Input password'
-WebUI.setText(findTestObject('Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/input_Kata Sandi_password'), 
-    GlobalVariable.password)
-
-'Click login button'
+'Click button login'
 WebUI.click(findTestObject('Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/button_Masuk'))
 
-'Verify login successfully'
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Membership Dashboard/p_Login Berhasil'), 0)
+'Verify error message "Nomor Handphone harus diisi"'
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/div_Nomor Handphone harus diisi'), 
+    'Nomor Handphone harus diisi')
 
-'Verify text "Login Berhasil"'
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Membership Dashboard/p_Login Berhasil'), 'Login Berhasil')
-
-'Click button exit popup'
-WebUI.click(findTestObject('Object Repository/Page_Membership Dashboard/span_'))
+'Verify error message "Kata Sandi harus diisi"'
+WebUI.verifyElementText(findTestObject('Page_Login Membership Nutriclub Akses Fitur_756b12/div_Kata Sandi harus diisi'), 
+    'Kata Sandi harus diisi')
 
 'Close browser'
 WebUI.closeBrowser()

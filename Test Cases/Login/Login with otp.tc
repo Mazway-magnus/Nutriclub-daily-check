@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login with password</name>
+   <name>Login with otp</name>
    <tag>login</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>3576bc41-567b-461b-bc56-00cdc3cb2439</testCaseGuid>
+   <testCaseGuid>5f8cecca-f2c3-4fc0-8afe-d5808324837f</testCaseGuid>
 </TestCaseEntity>
