@@ -1,0 +1,36 @@
+1
+00:00:00,418 --> 00:00:04,786
+3. Open browser
+
+2
+00:00:04,810 --> 00:00:04,999
+9. Full screen mode
+
+3
+00:00:05,023 --> 00:00:12,224
+15. Navigate to url nutriclub production
+
+4
+00:00:12,241 --> 00:00:13,744
+21. Accept cookie
+
+5
+00:00:13,757 --> 00:00:17,741
+27. Click button masuk
+
+6
+00:00:17,765 --> 00:00:18,406
+33. Click button login
+
+7
+00:00:18,424 --> 00:00:18,958
+39. Verify error message "Nomor Handphone harus diisi"
+
+8
+00:00:18,979 --> 00:00:19,298
+45. Verify error message "Kata Sandi harus diisi"
+
+9
+00:00:19,310 --> 00:00:19,741
+51. Close browser
+

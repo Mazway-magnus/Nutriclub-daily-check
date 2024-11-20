@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 131.0.0.0,,,20-11-2024 15:45:06,20-11-2024 15:47:07,2m - 1.848s,FAILED
+,,,,,,,
+Test Cases/Login/Login without input phone number and password,Chrome 131.0.0.0,,login,20-11-2024 15:45:06,20-11-2024 15:45:25,19.329s,FAILED
+"openBrowser("""")",Chrome 131.0.0.0,Open browser,,20-11-2024 15:45:06,20-11-2024 15:45:10,3.583s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,Full screen mode,,20-11-2024 15:45:10,20-11-2024 15:45:10,0.128s,PASSED
+"navigateToUrl(""https://www.nutriclub.co.id/"")",Chrome 131.0.0.0,Navigate to url nutriclub production,,20-11-2024 15:45:10,20-11-2024 15:45:18,7.740s,PASSED
+"click(findTestObject(""Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/button_Aktifkan Semua Cookie""))",Chrome 131.0.0.0,Accept cookie,,20-11-2024 15:45:18,20-11-2024 15:45:20,1.797s,PASSED
+"click(findTestObject(""Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/a_Masuk""))",Chrome 131.0.0.0,Click button masuk,,20-11-2024 15:45:20,20-11-2024 15:45:23,3.726s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/button_Masuk""))",Chrome 131.0.0.0,Click button login,,20-11-2024 15:45:23,20-11-2024 15:45:24,0.660s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/div_Nomor Handphone harus diisi""), ""Nomor Handphone harus diisi"")",Chrome 131.0.0.0,"Verify error message ""Nomor Handphone harus diisi""",,20-11-2024 15:45:24,20-11-2024 15:45:25,0.527s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/div_Kata Sandi harus diisi""), ""Kata Sandi harus diisi"")",Chrome 131.0.0.0,"Verify error message ""Kata Sandi harus diisi""",,20-11-2024 15:45:25,20-11-2024 15:45:25,0.716s,FAILED
+,,,,,,,
+Test Cases/Login/Login without input password,Chrome 131.0.0.0,,login,20-11-2024 15:45:25,20-11-2024 15:45:41,16.145s,FAILED
+"openBrowser("""")",Chrome 131.0.0.0,Open browser,,20-11-2024 15:45:25,20-11-2024 15:45:27,1.579s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,Full screen mode,,20-11-2024 15:45:27,20-11-2024 15:45:27,0.092s,PASSED
+"navigateToUrl(""https://www.nutriclub.co.id/"")",Chrome 131.0.0.0,Navigate to nutriclub production,,20-11-2024 15:45:27,20-11-2024 15:45:31,3.432s,PASSED
+"click(findTestObject(""Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/button_Aktifkan Semua Cookie""))",Chrome 131.0.0.0,Accept cookie,,20-11-2024 15:45:31,20-11-2024 15:45:33,2.246s,PASSED
+"click(findTestObject(""Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/a_Masuk""))",Chrome 131.0.0.0,Click button masuk,,20-11-2024 15:45:33,20-11-2024 15:45:38,5.599s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/input_No Handphone_username""), phoneNumber)",Chrome 131.0.0.0,Input phone number,,20-11-2024 15:45:38,20-11-2024 15:45:40,1.461s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/button_Masuk""))",Chrome 131.0.0.0,Click button login,,20-11-2024 15:45:40,20-11-2024 15:45:41,0.657s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/div_Kata Sandi harus diisi""), ""Kata Sandi harus diisi"")",Chrome 131.0.0.0,"Verify error message ""Kata Sandi harus diisi""",,20-11-2024 15:45:41,20-11-2024 15:45:41,0.838s,FAILED
+,,,,,,,
+Test Cases/Login/Login without input phone number,Chrome 131.0.0.0,,login,20-11-2024 15:45:41,20-11-2024 15:45:56,14.836s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,Open browser,,20-11-2024 15:45:42,20-11-2024 15:45:43,1.335s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,Full screen mode,,20-11-2024 15:45:43,20-11-2024 15:45:43,0.093s,PASSED
+"navigateToUrl(""https://www.nutriclub.co.id/"")",Chrome 131.0.0.0,Navigate to url nutriclub production,,20-11-2024 15:45:43,20-11-2024 15:45:48,4.812s,PASSED
+"click(findTestObject(""Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/button_Aktifkan Semua Cookie""))",Chrome 131.0.0.0,Accept cookie,,20-11-2024 15:45:48,20-11-2024 15:45:49,0.961s,PASSED
+"click(findTestObject(""Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/a_Masuk""))",Chrome 131.0.0.0,Click button masuk,,20-11-2024 15:45:49,20-11-2024 15:45:52,3.488s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/input_Kata Sandi_password""), password)",Chrome 131.0.0.0,Input password,,20-11-2024 15:45:52,20-11-2024 15:45:53,1.068s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/button_Masuk""))",Chrome 131.0.0.0,Click button login,,20-11-2024 15:45:53,20-11-2024 15:45:54,0.471s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/div_Nomor Handphone harus diisi""), ""Nomor Handphone harus diisi"")",Chrome 131.0.0.0,"Verify error message ""Nomor Handphone harus diisi""",,20-11-2024 15:45:54,20-11-2024 15:45:54,0.514s,PASSED
+closeBrowser(),Chrome 131.0.0.0,Close browser,,20-11-2024 15:45:54,20-11-2024 15:45:56,1.921s,PASSED
+,,,,,,,
+Test Cases/Login/Login with password,Chrome 131.0.0.0,,login,20-11-2024 15:45:56,20-11-2024 15:46:19,22.569s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,Open Browser,,20-11-2024 15:45:56,20-11-2024 15:45:58,1.103s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,Full screen mode,,20-11-2024 15:45:58,20-11-2024 15:45:58,0.090s,PASSED
+navigateToUrl(prodEnv),Chrome 131.0.0.0,Navigate to url nutriclub production,,20-11-2024 15:45:58,20-11-2024 15:46:03,5.013s,PASSED
+"click(findTestObject(""Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/button_Aktifkan Semua Cookie""))",Chrome 131.0.0.0,Accept cookie button,,20-11-2024 15:46:03,20-11-2024 15:46:03,0.562s,PASSED
+"click(findTestObject(""Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/a_Masuk""))",Chrome 131.0.0.0,Click button masuk,,20-11-2024 15:46:03,20-11-2024 15:46:07,3.485s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/input_No Handphone_username""), phoneNumber)",Chrome 131.0.0.0,Input phone number,,20-11-2024 15:46:07,20-11-2024 15:46:08,0.990s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/input_Kata Sandi_password""), password)",Chrome 131.0.0.0,Input password,,20-11-2024 15:46:08,20-11-2024 15:46:09,0.915s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/button_Masuk""))",Chrome 131.0.0.0,Click login button,,20-11-2024 15:46:09,20-11-2024 15:46:09,0.677s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Membership Dashboard/p_Login Berhasil""), 0)",Chrome 131.0.0.0,Verify login successfully,,20-11-2024 15:46:09,20-11-2024 15:46:17,7.271s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Membership Dashboard/p_Login Berhasil""), ""Login Berhasil"")",Chrome 131.0.0.0,"Verify text ""Login Berhasil""",,20-11-2024 15:46:17,20-11-2024 15:46:18,1.413s,PASSED
+"click(findTestObject(""Object Repository/Page_Membership Dashboard/span_""))",Chrome 131.0.0.0,Click button exit popup,,20-11-2024 15:46:18,20-11-2024 15:46:18,0.413s,PASSED
+closeBrowser(),Chrome 131.0.0.0,Close browser,,20-11-2024 15:46:18,20-11-2024 15:46:19,0.408s,PASSED
+,,,,,,,
+Test Cases/Login/Login with otp,Chrome 131.0.0.0,,login,20-11-2024 15:46:19,20-11-2024 15:47:07,48.620s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,Open browser,,20-11-2024 15:46:19,20-11-2024 15:46:20,1.032s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,Full screen mode,,20-11-2024 15:46:20,20-11-2024 15:46:20,0.082s,PASSED
+navigateToUrl(prodEnv),Chrome 131.0.0.0,Navigate to url nurticlub production,,20-11-2024 15:46:20,20-11-2024 15:46:26,5.791s,PASSED
+"click(findTestObject(""Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/button_Aktifkan Semua Cookie""))",Chrome 131.0.0.0,Accept cookie button,,20-11-2024 15:46:26,20-11-2024 15:46:29,2.614s,PASSED
+"click(findTestObject(""Object Repository/Page_Nutriclub Dukung si Kecil jadi Pemenang/a_Masuk""))",Chrome 131.0.0.0,Click button masuk,,20-11-2024 15:46:29,20-11-2024 15:46:35,6.623s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Membership Nutriclub Akses Fitur_756b12/a_Masuk Tanpa Kata Sandi""))",Chrome 131.0.0.0,"Click ""Login Tanpa Password""",,20-11-2024 15:46:35,20-11-2024 15:46:38,2.715s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login via Kode OTP ke Membership Nutriclub/input_No Handphone_username""), phoneNumber)",Chrome 131.0.0.0,Input phone number,,20-11-2024 15:46:38,20-11-2024 15:46:39,0.979s,PASSED
+"click(findTestObject(""Object Repository/Page_Login via Kode OTP ke Membership Nutriclub/button_Kirim OTP""))",Chrome 131.0.0.0,Click send OTP,,20-11-2024 15:46:39,20-11-2024 15:46:39,0.650s,PASSED
+delay(20),Chrome 131.0.0.0,Input OTP manually,,20-11-2024 15:46:39,20-11-2024 15:47:00,20.087s,PASSED
+"click(findTestObject(""Object Repository/Page_Membership Nutriclub Menang di Setiap Langkah/button_Verifikasi""))",Chrome 131.0.0.0,Click button verifikasi,,20-11-2024 15:47:00,20-11-2024 15:47:05,5.264s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Membership Dashboard/p_Login Berhasil""), 0)",Chrome 131.0.0.0,Verify login successfully,,20-11-2024 15:47:05,20-11-2024 15:47:06,1.533s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Membership Dashboard/p_Login Berhasil""), ""Login Berhasil"")",Chrome 131.0.0.0,"Verify text ""Login Berhasil""",,20-11-2024 15:47:06,20-11-2024 15:47:07,0.309s,PASSED
+"click(findTestObject(""Object Repository/Page_Membership Dashboard/span_""))",Chrome 131.0.0.0,Click button exit popup,,20-11-2024 15:47:07,20-11-2024 15:47:07,0.401s,PASSED
+closeBrowser(),Chrome 131.0.0.0,Close browser,,20-11-2024 15:47:07,20-11-2024 15:47:07,0.362s,PASSED

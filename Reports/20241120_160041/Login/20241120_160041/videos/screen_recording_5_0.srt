@@ -1,0 +1,40 @@
+1
+00:00:00,142 --> 00:00:01,302
+3. Open browser
+
+2
+00:00:01,304 --> 00:00:01,393
+9. Full screen mode
+
+3
+00:00:01,419 --> 00:00:09,771
+15. Navigate to url nurticlub production
+
+4
+00:00:09,788 --> 00:00:10,452
+21. Accept cookie button
+
+5
+00:00:10,473 --> 00:00:15,201
+27. Click button masuk
+
+6
+00:00:15,217 --> 00:00:18,328
+33. Click "Login Tanpa Password"
+
+7
+00:00:18,346 --> 00:00:19,249
+39. Input phone number
+
+8
+00:00:19,265 --> 00:00:19,938
+45. Click send OTP
+
+9
+00:00:19,963 --> 00:00:40,041
+51. Input OTP manually
+
+10
+00:00:40,065 --> 00:00:40,454
+57. Click button verifikasi
+

@@ -1,0 +1,48 @@
+1
+00:00:00,177 --> 00:00:01,456
+3. Open Browser
+
+2
+00:00:01,456 --> 00:00:01,563
+9. Full screen mode
+
+3
+00:00:01,588 --> 00:00:05,678
+15. Navigate to url nutriclub production
+
+4
+00:00:05,700 --> 00:00:07,216
+21. Accept cookie button
+
+5
+00:00:07,228 --> 00:00:10,781
+27. Click button masuk
+
+6
+00:00:10,817 --> 00:00:11,744
+33. Input phone number
+
+7
+00:00:11,762 --> 00:00:12,651
+39. Input password
+
+8
+00:00:12,663 --> 00:00:13,230
+45. Click login button
+
+9
+00:00:13,246 --> 00:00:19,562
+51. Verify login successfully
+
+10
+00:00:19,587 --> 00:00:21,006
+57. Verify text "Login Berhasil"
+
+11
+00:00:21,023 --> 00:00:21,419
+63. Click button exit popup
+
+12
+00:00:21,432 --> 00:00:21,858
+69. Close browser
+
